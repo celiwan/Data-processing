@@ -1,4 +1,10 @@
+%DetectionPeak v.4.1 - Code by Nelson Hélaine
+%This code detects peaks in data collected by a capsula system, providing distribution of FWHM and absorption minimum for
+%detected organoids. Thresholds of detection are tunable in variables initialization.
+
+
 %data files reading and variable declaration
+
 
 filesDetect = dir('*.txt'); %list of the data files in parent directory
 dataDetect = []; %main data matrix declaration
